@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimal Weight Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form action="#">
+        <h1>Optimal Weight Calculator
+        </h1>
+        <label for="">Height (in cm)</label>
+        <input type="number" name="" id="height">
+        <label for="">Age</label>
+        <input type="number" name="" id="age">
+        <label for="">Physique</label>
+        <div id="radio">
+            <input type="radio" name="physique" id="bigger" checked>
+            <label for="">Bigger</label>
+            <input type="radio" name="physique" id="smaller">
+            <label for="">Smaller</label>
+        </div>
+        <input class="btn" type="button" value="Submit" onclick="calculateWeight()">
+        <p id="result"></p>
+
+    </form>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
