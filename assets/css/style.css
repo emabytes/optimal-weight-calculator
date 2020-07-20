@@ -60,8 +60,9 @@ body {
   .btn:focus {
     outline: none;
   }
-  #result {
-      color: palevioletred;
+  #result, #warning {
+        color: rgb(211, 69, 117);
+        margin: 0;
   }
 
   @media (max-width: 768px){
